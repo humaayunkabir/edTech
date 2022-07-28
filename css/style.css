@@ -40,6 +40,40 @@
 
 
 
+.footer .social ul li {
+    background-color: #0DCAF0;
+    border: 2px solid #0DCAF0;
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 3px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.footer .social ul li:hover {
+    background-color: transparent;
+    border: 2px solid #0DCAF0;
+}
+
+.footer .social ul li:hover i {
+    color: #0DCAF0 !important;
+}
+
+.footer .social ul li:last-child {
+    margin-right: 0;
+}
+
+.footer .social ul li i {
+    font-size: 30px;
+    line-height: 30px;
+    transition: .4s;
+}
+
+
 
 
 
@@ -92,6 +126,10 @@
 
     .successfull .responsive-btn {
         display: none !important;
+    }
+
+    .brand-name {
+        display: none;
     }
 
 
