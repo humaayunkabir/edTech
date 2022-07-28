@@ -23,9 +23,20 @@
     margin: 0 auto;
 }
 
+.explore-section .row.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.successfull .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
 
-
+.successfull .responsive-btn {
+    display: none !important;
+}
 
 
 
@@ -47,6 +58,35 @@
     .courses-section .grid {
         grid-template-columns: 1fr;
     }
+
+    .explore-section .row.main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .ready-to-section .main {
+        display: block !important;
+    }
+
+    .ready-to-section .main .col-6 {
+        width: 100% !important;
+        text-align: center;
+        justify-content: center !important;
+    }
+
+    .ready-to-section .main .col-6 .button {
+        margin-top: 30px;
+    }
+
+    .ready-to-section .container {
+        padding: 50px 70px !important;
+    }
+
+    .successfull .row {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
@@ -69,4 +109,19 @@
         width: 100%;
     }
 
+    .successfull .row {
+        grid-template-columns: 1fr;
+    }
+
+    .successfull .text-box {
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .successfull .responsive-btn {
+        display: block !important;
+        text-align: center;
+    }
 }
