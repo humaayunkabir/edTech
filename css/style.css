@@ -3,6 +3,61 @@
 }
 
 .carousel img {
-    height: 900px;
+    height: 850px;
     object-fit: cover;
+    filter: brightness(40%);
+}
+
+.courses-section .grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.courses-section .grid .main .content strong {
+    color: #289BDE;
+}
+
+.courses-section .heading {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 989px) {
+    .navbar-collapse ul li {
+        margin: 0 auto;
+    }
+
+    .navbar-collapse .d-flex {
+        justify-content: center;
+    }
+
+    .courses-section .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+
+    .courses-section .grid .main {
+        display: block !important;
+    }
+
+    .courses-section .grid .main .col-4,
+    .courses-section .grid .main .col-8 {
+        width: 100%;
+    }
 }
