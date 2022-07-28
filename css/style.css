@@ -15,7 +15,7 @@
 }
 
 .courses-section .grid .main .content strong {
-    color: #289BDE;
+    color: #0DCAF0;
 }
 
 .courses-section .heading {
@@ -60,4 +60,13 @@
     .courses-section .grid .main .col-8 {
         width: 100%;
     }
+
+    .explore-section .row.main {
+        display: block;
+    }
+
+    .explore-section .row .col-6 {
+        width: 100%;
+    }
+
 }
