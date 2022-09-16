@@ -8,6 +8,12 @@
     filter: brightness(40%);
 }
 
+#carouselExampleCaptions .carousel-caption {
+    top: 37%;
+    right: 50%;
+    transform: translatex(50%);
+}
+
 .courses-section .grid {
     display: grid;
     grid-gap: 30px;
